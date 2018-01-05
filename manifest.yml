@@ -1,0 +1,7 @@
+applications: 
+- name: python
+  memory: 256M
+  buildpack: https://github.com/cloudfoundry/multi-buildpack
+  environment: 
+    CPLUS_INCLUDE_PATH: "/usr/include/gdal"
+    C_INCLUDE_PATH: "/usr/include/gdal"
